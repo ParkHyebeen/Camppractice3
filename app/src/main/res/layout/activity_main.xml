@@ -18,12 +18,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btnMsg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2.메시지 전송" />
+
+    <EditText
+        android:id="@+id/etMsg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnBoth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.양방향정보교환" />
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메시지 출력" />
 </LinearLayout>
